@@ -1,4 +1,4 @@
-from test.car import Car
+from car import Car
 from battery.nubbin_battery import Nubbin
 from battery.spindler_battery import Spindler
 from engine.capulet_engine import CapuletEngine
