@@ -13,7 +13,6 @@ class CarFactory():
         engine = CapuletEngine(current_mileage, last_service_mileage)
         battery = Spindler(current_date, last_service_date)
         return Car(engine, battery)
-        
     @staticmethod
     def create_glissade(current_date, last_service_date, current_mileage, last_service_mileage):
         engine = WilloughbyEngine(current_mileage, last_service_mileage)
@@ -38,3 +37,4 @@ class CarFactory():
         battery = Nubbin(current_date, last_service_date)
         car = Car(engine, battery)
         return car
+    
